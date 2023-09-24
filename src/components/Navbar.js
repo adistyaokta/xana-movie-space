@@ -1,7 +1,7 @@
 function Navbar(props) {
     return (
         <div className="Nav">
-            <h1 className="Nav-title">Xana Movie Space</h1>
+            <h1 className="Nav-title">XanaMovieSpace</h1>
             <input className="Movie-search" placeholder="Find your movie"/>
             <ul className="Nav-link">
             <li>
