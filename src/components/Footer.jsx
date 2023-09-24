@@ -10,11 +10,11 @@ function Footer() {
         <footer className="Footer">
         <div className="Footer-container">
             <div className="Footer-wrapper">
-            <div className="Footer-about">
+            <div className="Footer-about" id='about'>
                 <h3>About</h3>
                 <p>A simple movie website made with TMDB API</p>
             </div>
-            <div className="Footer-contact">
+            <div className="Footer-contact" id='contact'>
                 <h3>Contact</h3>
                 <a href={linkedin} target="_blank" rel="noopener noreferrer">
                  <i class="fa fa-brands fa-linkedin fa-lg"></i>

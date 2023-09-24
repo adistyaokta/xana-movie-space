@@ -5,13 +5,13 @@ function Navbar(props) {
             <input className="Movie-search" placeholder="Find your movie"/>
             <ul className="Nav-link">
             <li>
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
             </li>
             <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
             </li>
             </ul>
         </div>

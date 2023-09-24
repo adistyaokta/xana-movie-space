@@ -3,6 +3,7 @@
   background-color: #283a43;
   color: #fefefe;
   height: 100%;
+  font-family: 'Inclusive Sans';
 }
 
 .Nav {
@@ -18,6 +19,7 @@
   height: 50px;
   color: #fefefe;
   margin-right: 10px;
+  font-family: 'Skranji', cursive;
 }
 
 .Movie-search {

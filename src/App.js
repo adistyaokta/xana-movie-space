@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header" id='home'>
         <Navbar/>
         <div className="Section-trending">
         <h1 className="Section-title">Trending Movies</h1>
