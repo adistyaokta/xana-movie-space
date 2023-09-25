@@ -12,7 +12,7 @@ function Footer() {
             <div className="Footer-wrapper">
             <div className="Footer-about" id='about'>
                 <h3>About</h3>
-                <p>A simple movie website made with TMDB API</p>
+                <p>A simple movie finder website made with TMDB API</p>
             </div>
             <div className="Footer-contact" id='contact'>
                 <h3>Contact</h3>
