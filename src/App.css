@@ -7,12 +7,24 @@
 }
 
 .Nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
   background-color: #282c34;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   gap: 50px;
+  transition: background-color 0.9s;
+  backdrop-filter: blur(0px) brightness(.5);
+}
+
+.Nav.scrolling {
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(10px) brightness(.6);
 }
 
 .Nav-title {
@@ -53,7 +65,7 @@
 }
 
 .Section-title {
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -180,6 +192,12 @@
   max-width: 80%;
 }
 
+.Section-content .Movie-date {
+  font-style: italic;
+  padding: 2px;
+  font-size: .5em;
+}
+
 .Footer-container {
   background-color: #282c34;
   padding: 10px;
@@ -229,6 +247,7 @@ i {
     align-items: center; 
     padding: 2px;
     gap: 1px;
+    position: relative;
   }
 
   .Nav-link {

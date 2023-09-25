@@ -17,13 +17,13 @@ function Footer() {
             <div className="Footer-contact" id='contact'>
                 <h3>Contact</h3>
                 <a href={linkedin} target="_blank" rel="noopener noreferrer">
-                 <i class="fa fa-brands fa-linkedin fa-lg"></i>
+                 <i className="fa fa-brands fa-linkedin fa-lg"></i>
                 </a>
                 <a href={ig} target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-brands fa-instagram fa-lg"></i>
+                <i className="fa fa-brands fa-instagram fa-lg"></i>
                 </a>
                 <a href={wa} target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-brands fa-whatsapp fa-lg"></i>
+                <i className="fa fa-brands fa-whatsapp fa-lg"></i>
                 </a>
             </div>
             </div>
