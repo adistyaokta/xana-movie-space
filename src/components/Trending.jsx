@@ -31,7 +31,7 @@ const Trending = () => {
   
   return (
     <div className="Carousel-container">
-    <Carousel
+      <Carousel
         responsive={responsive}
         itemClass="Trending-wrapper"
         centerMode={true}
@@ -47,23 +47,28 @@ const Trending = () => {
         containerClass="Carousel-container"
         removeArrowOnDeviceType={['all']}
         dotListClass="custom-dot-list-style"
-    >
-      <div className="Trending-container">
-            {movies.map((results, index) => {
-                return (
-                    <div className="Trending-wrapper" key={index}>
-                    <div className="Movie-title">{results.title}</div>
-                    <img className="Movie-thumbnail" alt="" 
-                        src={`${process.env.REACT_APP_BASEIMGURL}/w154/${results.poster_path}`}/>
-                    <div className="Movie-date">Release date: {results.release_date}</div>
-                        <div className="Movie-rating">{results.vote_average}</div>
-                    </div>
-                )
-            })}
+      >
+        <div className="Trending-container">
+          {movies.map((results, index) => {
+            return (
+              <div className="Movie-wrapper" key={index}>
+                <img
+                  className="Movie-thumbnail"
+                  alt=""
+                  src={`${process.env.REACT_APP_BASEIMGURL}/w154/${results.poster_path}`}
+                />
+                <div className="Movie-details">
+                  <div className="Movie-title">{results.title}</div>
+                  <div className="Movie-date">Release date: {results.release_date}</div>
+                  <div className="Movie-rating">{results.vote_average}<i class="fa fa-solid fa-star"></i></div>
+                </div>
+              </div>
+            )
+          })}
         </div>
-    </Carousel>
-      </div>
-  );
+      </Carousel>
+    </div>
+  )
 }
 
 export default Trending
