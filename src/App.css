@@ -24,7 +24,7 @@
 
 .App {
   text-align: center;
-  background-color: var(--bg-primary);
+  background-image: radial-gradient(circle, #220537, #2e0849, #3c0a5c, #490c70, #580e84);
   color: #fefefe;
   height: 100%;
   font-family: 'Inclusive Sans';
@@ -526,6 +526,7 @@ i:hover {
     margin: 5px;
     max-width: 100%;
   }
+  
   
   .Footer-container {
     background-color: #282c34;
